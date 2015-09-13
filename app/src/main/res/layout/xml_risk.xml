@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbcc1bf">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Are you at risk...."
+    android:textSize="30dp"
+    android:textColor="#ffa81515"
+    android:textStyle="bold"
+    android:id="@+id/textView20"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="You are more likely to get a pressure ulcer if you :"
+        android:textColor="#ff0c050d"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Use a wheelchair or stay in bed for a long time"
+        android:textColor="#ff0c050d"
+        android:id="@+id/textView22"
+        android:textSize="17dp"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Are an older adult"
+        android:textColor="#ff0c050d"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView22"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Cannot move certain parts of your body without help because of a spine or brain injury"
+        android:textColor="#ff0c050d"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/textView23"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Have a disease that affects blood flow, including diabetes or vascular disease"
+        android:textColor="#ff0c050d"
+        android:id="@+id/textView25"
+        android:layout_below="@+id/textView24"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Have fragile skin and do not get enough nutrition (malnourishment)"
+        android:textColor="#ff0c050d"
+        android:id="@+id/textView26"
+        android:layout_below="@+id/textView25"
+        android:textSize="17dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="13dp" />
+
+
+
+</RelativeLayout>

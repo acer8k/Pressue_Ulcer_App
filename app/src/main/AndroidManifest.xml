@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kashif.pressureulcer" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".WhatPU"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.WhatPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".StagesPU"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.StagesPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RiskPU"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.RiskPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PreventPU"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.PreventPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".TipsPU"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.TipsPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ContactPU"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.ContactPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AskFeedPU"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.AskFeedPU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+
+    </application>
+
+</manifest>

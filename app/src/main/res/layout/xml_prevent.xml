@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbcc1bf">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Take the following steps to prevent pressure ulcers:"
+        android:textColor="#ff1a0a35"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:id="@+id/textView27"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&#8226; Change position at least every 2 hours to relieve pressure."
+        android:textColor="#ff1a0a35"
+        android:textSize="20dp"
+        android:id="@+id/textView28"
+        android:layout_below="@+id/textView27"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&#8226; Use items that can help
+        reduce pressure -- pillows, sheepskin, foam padding,
+        and powders from medical supply stores."
+        android:textColor="#ff1a0a35"
+        android:textSize="20dp"
+        android:id="@+id/textView29"
+        android:layout_below="@+id/textView28"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&#8226; Eat well-balanced meals that
+        contain enough calories to keep you healthy."
+        android:textColor="#ff1a0a35"
+        android:textSize="20dp"
+        android:id="@+id/textView30"
+        android:layout_below="@+id/textView29"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&#8226; Drink plenty of water (8 to 10 cups) every day."
+        android:textColor="#ff1a0a35"
+        android:textSize="20dp"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&#8226; Exercise daily, including range-of-motion exercises."
+        android:textColor="#ff1a0a35"
+        android:textSize="20dp"
+        android:id="@+id/textView32"
+        android:layout_below="@+id/textView31"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&#8226; Keep the skin clean and dry"
+        android:textColor="#ff1a0a35"
+        android:textSize="20dp"
+        android:id="@+id/textView33"
+        android:layout_below="@+id/textView32"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&#8226; After urinating or having a
+        bowel movement, clean the area and dry it well.
+        A doctor can recommend creams to help protect the skin."
+        android:textColor="#ff1a0a35"
+        android:textSize="20dp"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

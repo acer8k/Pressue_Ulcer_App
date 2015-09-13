@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbcc1bf">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pressure sores are grouped by their severity. Stage I is the earliest stage. Stage IV is the worst."
+        android:id="@+id/textView11"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ff0c050d" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Stage I"
+        android:textStyle="bold"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/holo_red_dark" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="A reddened area on the skin that, when pressed, does not turn white. This is a sign that a pressure ulcer is starting to develop."
+        android:id="@+id/textView13"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#ff0c050d"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:src="@drawable/stage_1"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView13"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Stage II"
+        android:textStyle="bold"
+        android:id="@+id/textView14"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_below="@+id/imageView1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The skin blisters or forms an open sore. The area around the sore may be red and irritated."
+        android:id="@+id/textView15"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ff0c050d"
+        android:layout_below="@+id/textView14" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/stage_2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView15"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Stage III"
+            android:textStyle="bold"
+            android:id="@+id/textView16"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@+id/imageView2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="The skin now develops an open,
+            sunken hole called a crater. There is damage
+            to the tissue below the skin."
+            android:id="@+id/textView17"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ff0c050d"
+            android:layout_below="@+id/textView16" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/stage_3"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView17"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Stage IV"
+            android:textStyle="bold"
+            android:id="@+id/textView18"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@+id/imageView3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="The pressure ulcer has become so deep that
+            there is damage to the muscle and bone,
+            and sometimes to tendons and joints."
+            android:id="@+id/textView19"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="#ff0c050d"
+            android:layout_below="@+id/textView18" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView4"
+            android:src="@drawable/stage_4"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textView19"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

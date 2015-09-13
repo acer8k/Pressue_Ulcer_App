@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbcc1bf">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="First Aid"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ff51a631"
+        android:id="@+id/textView35"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="If you have a pressure ulcer:"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="#ff0c050d"
+        android:id="@+id/textView36"
+        android:layout_below="@+id/textView35"
+        android:layout_alignLeft="@+id/textView35"
+        android:layout_alignStart="@+id/textView35"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Relieve the pressure on that area. Use pillows, special foam cushions, and sheepskin to reduce the pressure."
+        android:id="@+id/textView37"
+        android:layout_below="@+id/textView36"
+        android:textColor="#ff0c050d"
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Treat the sore as directed by your doctor or nurse."
+        android:id="@+id/textView38"
+        android:layout_below="@+id/textView37"
+        android:textColor="#ff0c050d"
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Avoid further injury or friction to the area. Powder the sheets lightly so your skin doesn't rub on them in bed. "
+        android:id="@+id/textView39"
+        android:layout_below="@+id/textView38"
+        android:textColor="#ff0c050d"
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Clean the ulcer the way your
+         doctor or nurse told you to. It is very important to do this properly to prevent infection."
+        android:id="@+id/textView40"
+        android:layout_below="@+id/textView39"
+        android:textColor="#ff0c050d"
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="&#8226; Generally, pressure ulcers are rinsed with a salt-water rinse to remove loose, dead tissue. The sore should be covered with special gauze dressing made for pressure ulcers."
+        android:id="@+id/textView41"
+        android:layout_below="@+id/textView40"
+        android:textColor="#ff0c050d"
+        android:layout_alignLeft="@+id/textView36"
+        android:layout_alignStart="@+id/textView36"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DO NOT"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ffe92422"
+        android:id="@+id/textView42"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:text="&#8226; Do NOT massage the skin near or on the ulcer. It can cause more skin damage."
+       android:id="@+id/textView43"
+       android:layout_below="@+id/textView42"
+       android:textColor="#ff0c050d"
+       android:layout_alignLeft="@+id/textView36"
+       android:layout_alignStart="@+id/textView36"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="5dp"
+       android:layout_marginLeft="5dp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:text="&#8226; Do NOT use a donut-shaped or ring-shaped
+       cushions. They interfere with blood flow to that
+       area and cause complications."
+       android:id="@+id/textView44"
+       android:layout_below="@+id/textView43"
+       android:textColor="#ff0c050d"
+       android:layout_alignLeft="@+id/textView36"
+       android:layout_alignStart="@+id/textView36"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="5dp"
+       android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pressure Ulcer</string>
+    <!-- <string name="hello_world">Hello world!</string>-->
+     <string name="action_settings">Settings</string>
+     <color name="bg_color">#ffcdff9b</color>
+
+    <!--xml_askfeed.xml-->
+    <string name="feedbacktitle">Enter Feedback or Ask a question</string>
+    <string name="feedbackname">Name</string>
+    <string name="feedbackemail">E-Mail</string>
+    <string name="feedbackQC">Questions or Feedback</string>
+
+    <!--Other string resources also defined in this file… -->
+    <string name="feedbacktype1">Praise</string>
+    <string name="feedbacktype2">Gripe</string>
+    <string name="feedbacktype3">Suggestion</string>
+    <string name="feedbacktype4">Bug</string>
+
+
+
+
+ </resources>
