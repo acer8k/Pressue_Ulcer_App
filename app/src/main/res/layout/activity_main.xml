@@ -23,12 +23,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_margin="10dp"
-    android:text="Pressure Ulcer Guide"
+    android:text="- Pressure Ulcer Guide -"
     android:textColor="#ffff3536"
     android:textSize="22sp"
 
        android:autoText="false"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:id="@+id/" />
     </RelativeLayout>
 
     <Button
@@ -101,7 +102,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="References"
+        android:text="- References -"
         android:id="@+id/buttonref"
         android:layout_marginTop="10dp"
         android:onClick="openref"
